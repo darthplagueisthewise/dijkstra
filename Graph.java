@@ -7,10 +7,15 @@ class Graph
   
   Graph(int, Node st, Node tg)
   {
-    graphSize = int;
-    nodesInGraph = new Node[int]();
-    sourceNode = st;
-    targetNode = tg;
+    if (int > 1)
+    {
+      graphSize = int;
+      nodesInGraph = new Node[int]();
+      sourceNode = st;
+      targetNode = tg;
+      Node[0] = sourceNode;
+      Node[1] = targetNode;
+    }
   }
   
   struct Edge 
