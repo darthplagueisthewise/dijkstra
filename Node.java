@@ -1,6 +1,6 @@
 class Node
 {  
-  public Node[] unVisited_neighborList;
+  public Edge[] adjacentEdges;
   public String Node_name;
   public boolean Visited;
   public int dis_from_Source;
